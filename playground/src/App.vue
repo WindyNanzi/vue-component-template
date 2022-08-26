@@ -12,7 +12,6 @@ import { isDebug } from '~/composables'
       <transition name="page-fade">
         <component
           :is="Component"
-          absolute left-0 right-0 top-25
         />
       </transition>
     </RouterView>
